@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <title>Base converter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+
+        body {
+            height: 100vh;
+            background-color: #000000;
+            font-family: Monospace;
+        }
+        div {
+            margin: 16px;
+            align-content: center;
+        }
+        a {
+            text-decoration: none;
+            color: #80FF00;
+            font-size: 18px;
+        }
+        #t {
+            height: 100px;
+            width: 100px;
+            display: flex;
+            float: left;
+            box-shadow: 0 0 10px #80FF00;
+            text-align: center;
+            align-items: center;
+        }
+        #d {
+            height: 100px;
+            width: 100px;
+            display: flex;
+            float: right;
+            box-shadow: 0 0 10px #80FF00;
+            text-align: center;
+            align-items: center;
+        }
+        #preloader {
+            display: grid;
+            background: #000;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            z-index: 100;
+            font-family: Monospace;
+            color: #80FF00;
+            font-size: 22px;
+            align-content: center;
+            text-align: center;
+            font-weight: bold;
+        }
+        iframe {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header id="preloader">
+        BASE CONVERTOR
+    </header>
+    <div>
+        <a href="base 10-2.html"><div id="t">
+            BASE 10-2
+        </div>
+        </a>
+        <a href="base 10-8.html"><div id="d">
+            BASE 10-8
+        </div>
+        </a>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JNl1_hRwpXE?si=h-iSSX3XXlRvtYNx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <div>
+        <a href="base 10-12.html"><div id="t">
+            BASE 10-12
+        </div>
+        </a>
+        <a href="base 10-16.html"><div id="d">
+            BASE 10-16
+        </div>
+        </a>
+    </div>
+    <div>
+        <a href="base 2-10.html"><div id="t">
+            BASE 2-10
+        </div>
+        </a>
+        <a href="base 8-10.html"><div id="d">
+            BASE 8-10
+        </div>
+        </a>
+    </div>
+    <div>
+        <a href="base 12-10.html"><div id="t">
+            BASE 12-10
+        </div>
+        </a>
+        <a href="base 16-10.html"><div id="d">
+            BASE 16-10
+        </div>
+        </a>
+    </div>
+
+
+    <script>
+        var loader = document.getElementById('preloader');
+        window.addEventListener("load", function() {
+            loader.style.display = 'none';
+        })
+
+    </script>
+</body>
+</html>
